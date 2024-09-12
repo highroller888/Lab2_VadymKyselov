@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Requesting a quote</title>
+</head>
+<body>
+	<h2>Request a Quote for Sockets</h2>
+    <form action="SocketServlet" method="post">
+        <label for="socketType">Socket Type:</label><br>
+        <select name="socketType" id="socketType">
+            <option value="Type A">Type A</option>
+            <option value="Type B">Type B</option>
+            <option value="Type C">Type C</option>
+        </select><br><br>
+
+        <label for="quantity">Quantity:</label><br>
+        <input type="text" id="quantity" name="quantity"><br><br>
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <input type="submit" value="Request Quote">
+    </form>
+</body>
+</html>
